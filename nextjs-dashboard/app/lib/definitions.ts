@@ -47,6 +47,7 @@ export type LatestInvoiceRaw = Omit<LatestInvoice, 'amount'> & {
 export type InvoicesTable = {
   id: string;
   customer_id: string;
+  // had to remove these 3 lines to make it work chapter 12 after redirect
   name: string;
   email: string;
   image_url: string;
